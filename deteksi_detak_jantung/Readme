@@ -1,0 +1,25 @@
+Langkah-langkah Pemasangan:
+Sambungkan Arduino ke Breadboard:
+
+Hubungkan pin 5V Arduino ke rail positif breadboard dan pin GND Arduino ke rail negatif breadboard.
+Pasang Potensiometer:
+
+Pasang potensiometer pada breadboard, lalu hubungkan pin kiri ke rail negatif dan pin kanan ke rail positif.
+Hubungkan pin tengah potensiometer ke pin A1 Arduino.
+Hubungkan Pulse Sensor:
+
+Hubungkan VCC sensor ke pin tengah potensiometer.
+Hubungkan GND sensor ke rail negatif.
+Hubungkan pin sinyal sensor ke pin A0 Arduino.
+Pasang LED:
+
+Hubungkan anoda LED merah ke pin 9 Arduino melalui resistor 1kΩ, dan katoda ke rail negatif.
+Hubungkan anoda LED hijau ke pin 10 Arduino melalui resistor 1kΩ, dan katoda ke rail negatif.
+Hubungkan LCD 16x2:
+
+Hubungkan pin VCC dan GND dari LCD ke rail positif dan negatif.
+Hubungkan SDA dan SCL dari LCD ke pin A4 dan A5 Arduino.
+Hubungkan OLED:
+
+Hubungkan pin VCC dan GND dari OLED ke rail positif dan negatif.
+Hubungkan SDA dan SCL dari OLED ke pin A4 dan A5 Arduino (bersama dengan LCD).
